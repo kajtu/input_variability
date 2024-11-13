@@ -7,14 +7,14 @@ The manuscript is available as a preprint at doi [10.1101/2024.06.13.597551](htt
 If you use this implementation in your academic projects, please cite this paper.
 
 # Input variability
-Teh code for performing the comparisons between inter- intra- and interobserver variability is provided in the scripts "results_estimatedparameters.m" and "results_inputvars.m".
-Note that the orginal data is not provided here due to ethical restrictions.
+The code for performing the analysis on inter-sequence and intra- and interobserver variability is provided in the scripts  `results_estimatedparameters.m ` and  `results_inputvars.m `.
+Note that the original data is not provided here due to ethical restrictions.
 
 # Sensitivity analysis
-To perform the sensitivity analysis as described in the Supplementary, run "sensitivityanalysis.m". 
+To perform the sensitivity analysis as described in the Supplementary, run `sensitivityanalysis.m `. 
 
 # Requirements
-The code was created with R2023a. Earlier matlab versions might not be compatible with some of the scripts.
+The code was created with R2023a. Earlier Matlab versions might not be compatible with some of the scripts.
 
 The model is implemented in the [AMICI toolbox](https://doi.org/10.1093/bioinformatics/btab227) in MATLAB for performing the sensitivity analysis.
 To compile the model, MATLAB 2017b or earlier is needed, but to run the already compiled model any later matlab verison works. 
