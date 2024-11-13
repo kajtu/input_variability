@@ -6,8 +6,6 @@
 *.png
 *.fig
 *.pdf
-*.h
-*.c
 *.slxc
 *.out
 *.log
